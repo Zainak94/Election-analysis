@@ -30,7 +30,7 @@ o Number of votes and the percentage of total votes for each county in the preci
 ### The Largest number of Votes by Country: 
 The country with the largest number of votes were Denver. 
 
-o	Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+o	Number of votes and the percentage of the total votes each candidate received.
 ### Candidates and their total Votes Results: 
 -The candidates were: 
   - Candidate 1: Carles Casper Stockham
