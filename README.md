@@ -44,7 +44,8 @@ o	Provide a breakdown of the number of votes and the percentage of the total vot
   - Winner: Diana DeGette who received 73.8% of the votes and 272,892 number of votes. 
   
 ## Election Result: 
-![Election_Result](https://github.com/Zainak94/Election-analysis/blob/master/Election_Result.PNG)
+![Election_Result](https://github.com/Zainak94/Election-analysis/blob/master/Election_Results.PNG)
+
 
 ## Election-Audit Overview
 Overall, the analysis was performed well. There were few challenges that I personally came across. It was mainly when I was trying to push my python file to the repository. I had to try multiple codes to push the file correctly. The second challenging part was the indentation in python. We have to be very careful when it comes to indentation. Wrong indentation can provide you with the incorrect results. 
