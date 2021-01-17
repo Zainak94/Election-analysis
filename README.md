@@ -20,16 +20,31 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 ## Summary
 The analysis of the election show that: 
 -There were 369,711 votes cast in the election. 
+
+o Number of votes and the percentage of total votes for each county in the precinct.
+# County Votes Results:
+- Arapahoe: Number of votes for Arapahoe 24,801 and 6.7% of the total votes. 
+- Denver: Number of votes for Denver 306,055 and 82.8% of the total votes
+- Jefferson: Number of votes for Jefferson 38,855 and 10.5% of the total votes. 
+
+# The Largest number of Votes by Country: 
+The country with the largest number of votes were Denver. 
+
+o	Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+# Candidates and their total Votes Results: 
 -The candidates were: 
   - Candidate 1: Carles Casper Stockham
   - Candidate 2: Diana DeGette
   - Candidate 3: Raymon Anthony Doane
-- The candidates results were: 
+# Candidates Results:  
   - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
   - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-- The winner of the election was: 
+# The winner of the election: 
   - Winner: Diana DeGette who received 73.8% of the votes and 272,892 number of votes. 
+  
+## Election Result: 
+![Election_Result](https://github.com/Zainak94/Election-analysis/blob/master/Election_Result.PNG)
 
 ## Election-Audit Overview
 Overall, the analysis was performed well. There were few challenges that I personally came across. It was mainly when I was trying to push my python file to the repository. I had to try multiple codes to push the file correctly. The second challenging part was the indentation in python. We have to be very careful when it comes to indentation. Wrong indentation can provide you with the incorrect results. 
