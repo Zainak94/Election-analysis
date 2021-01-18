@@ -44,7 +44,7 @@ o	Number of votes and the percentage of the total votes each candidate received.
   - Winner: Diana DeGette who received 73.8% of the votes and 272,892 number of votes. 
   
 ## Election Result: 
-![Election_Result]()
+![Election_Result](https://github.com/Zainak94/Election-analysis/blob/master/Election_Results2.PNG)
  
 
 ## Election-Audit Overview
