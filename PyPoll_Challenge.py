@@ -49,7 +49,7 @@ with open(file_to_load) as election_data:
         candidate_name = row[2]
 
         # 3: Extract the county name from each row.
-        county_name = row[2]
+        county_name = row[1]
 
         # If the candidate does not match any existing candidate add it to
         # the candidate list
@@ -88,10 +88,11 @@ with open(file_to_save, "w") as txt_file:
         f"Total Votes: {total_votes:,}\n"
         f"-------------------------\n\n"
         f"County Votes:\n")
+        
     print(election_results, end="")
 
     txt_file.write(election_results)
-
+    
     # 6a: Write a for loop to get the county from the county dictionary.
     for county_name in county_dic:
         # 6b: Retrieve the county vote count.
@@ -100,11 +101,12 @@ with open(file_to_save, "w") as txt_file:
         countyvote_percentage = float(county_votes) / float(total_votes) * 100
 
          # 6d: Print the county results to the terminal.
-        county_results = (
-            f"{county_name}: {countyvote_percentage:.1f}% ({county_votes:,})\n")
+        county_results= (f"{county_name}:{countyvote_percentage:.1f}%({county_votes:,})\n")
+
         print(county_results)
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
+
          # 6f: Write an if statement to determine the winning county and get its vote count.
         if (county_votes > winning_countyvotes) and (countyvote_percentage > winning_countypercentage):
             winning_countyvotes = county_votes
@@ -129,8 +131,7 @@ with open(file_to_save, "w") as txt_file:
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
-        # Print each candidate's voter count and percentage to the
-        # terminal.
+        # Print each candidate's voter count and percentage to the terminal
         print(candidate_results)
         #  Save the candidate results to our text file.
         txt_file.write(candidate_results)
