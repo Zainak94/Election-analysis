@@ -45,7 +45,7 @@ o	Number of votes and the percentage of the total votes each candidate received.
   
 ## Election Result: 
 ![Election_Result](https://github.com/Zainak94/Election-analysis/blob/master/Election_Results.PNG)
-- My result was a bit different. It had provided me the duplication of candidates results in county votes. I have reviewed my code couple of times and tried to statement out my codes one by one to find the error. I was still unable to find it, so here are my final results. 
+ 
 
 ## Election-Audit Overview
 Overall, the analysis was performed well. There were few challenges that I personally came across. It was mainly when I was trying to push my python file to the repository. I had to try multiple codes to push the file correctly. The second challenging part was the indentation in python. We have to be very careful when it comes to indentation. Wrong indentation can provide you with the incorrect results.
