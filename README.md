@@ -45,12 +45,12 @@ o	Number of votes and the percentage of the total votes each candidate received.
   
 ## Election Result: 
 ![Election_Result](https://github.com/Zainak94/Election-analysis/blob/master/Election_Results.PNG)
-
+- My result was a bit different. It had provided me the duplication of candidates results. I have reviewed my code couple of times and tried to statement out my codes to find the error. I was still unable to find it, so here are my final results. 
 
 ## Election-Audit Overview
-Overall, the analysis was performed well. There were few challenges that I personally came across. It was mainly when I was trying to push my python file to the repository. I had to try multiple codes to push the file correctly. The second challenging part was the indentation in python. We have to be very careful when it comes to indentation. Wrong indentation can provide you with the incorrect results. 
+Overall, the analysis was performed well. There were few challenges that I personally came across. It was mainly when I was trying to push my python file to the repository. I had to try multiple codes to push the file correctly. The second challenging part was the indentation in python. We have to be very careful when it comes to indentation. Wrong indentation can provide you with the incorrect results.
 
 ## Election-Audit Summary
 Overall the election-audit was intense. It did provide the full election summary that the board had required. This script can be used for other elections in 2 ways. Right now, this election audit was performed for one state. 
 1. We can use the same script by each state instead of the using each city to perform the audit for all 50 states for presidential elections. 
-2. We can also provide comparisons for presidential elections basing on people's favorite and their votes. 
+2. We can also provide comparisons for presidential elections basing on people's favorite and their reflection of it on votes. 
